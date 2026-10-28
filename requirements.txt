@@ -1,0 +1,10 @@
+# Python-Pakete (getestet mit Python 3.12.7)
+geopandas==1.2.0
+pyogrio==0.13.0
+shapely==2.2.0
+pyproj==3.8.0
+
+# Systemprogramme, nicht über pip installierbar (siehe README):
+#   PostgreSQL 16 + PostGIS 3.4, psql
+#   GDAL 3.7 mit ogr2ogr (z. B. Postgres.app, Homebrew: brew install gdal, Debian: apt install gdal-bin)
+#   QGIS 3.28+ nur für Teil D (eigene Python-Umgebung von QGIS)
